@@ -6,7 +6,7 @@ The **Garage Management System (GMS)** is a comprehensive CRM solution built on 
 
 ## Demonstration
 
-[Garage Management System Demo Video]()
+[Garage Management System Demo Video](https://youtu.be/MiQU_3bFdKU)
 
 Watch my Youtube video above for a complete demonstration of the Garage Management System's features and functionality.
 
@@ -39,16 +39,16 @@ Watch my Youtube video above for a complete demonstration of the Garage Manageme
 
 ### Custom Objects
 
-* `Customer details`
-* `Appointment`
-* `Service Records`
-* `Billing details & Feedback`
+* ``Customer details``
+* ``Appointment``
+* ``Service Records``
+* ``Billing details & Feedback``
 
 ### Object Relationships
 
-* `Appointment` → `Customer details` (Lookup)
-* `Service Records` → `Appointment` (Lookup)
-* `Billing details and feedback` → `Service Records` (Lookup)
+* ``Appointment`` → ``Customer details`` (Lookup)
+* ``Service Records`` → ``Appointment`` (Lookup)
+* ``Billing details and feedback`` → ``Service Records`` (Lookup)
 
 ### Automation
 
@@ -60,7 +60,7 @@ Watch my Youtube video above for a complete demonstration of the Garage Manageme
 * **Approval Processes:** Approvals for high-value repairs or additional services, with manager-based routing and email notifications for approvals and rejections.
 
 * **Apex Triggers:**
-    * **`AmountDistributionTrigger`:** Validates business hours for appointment and Automatically calculates service costs and updates billing status upon payment.
+    * **``AmountDistributionTrigger``:** Validates business hours for appointment and Automatically calculates service costs and updates billing status upon payment.
 
 ### User Interface
 
@@ -72,8 +72,8 @@ Watch my Youtube video above for a complete demonstration of the Garage Manageme
 ## Setup Instructions
 
 1. **Object Creation:**
-    * Create `Customer details` and `Service Records` objects and data.
-    * Create `Appointment`, `Billing details`, and `Feedback` objects.
+    * Create ``Customer details`` and ``Service Records`` objects and data.
+    * Create ``Appointment``, ``Billing details``, and ``Feedback`` objects.
     * Create relationship fields to link objects as needed.
 
 2. **User Configuration:**
@@ -81,12 +81,12 @@ Watch my Youtube video above for a complete demonstration of the Garage Manageme
     * Configure user permissions and hierarchies for different user roles.
 
 3. **Flow Deployment:**
-    * Deploy the `Record-trigger Flow`.
-    * Deploy the `Amount update Flow`.
-    * Deploy the `Email alert Flow`.
+    * Deploy the ``Record-trigger Flow``.
+    * Deploy the ``Amount update Flow``.
+    * Deploy the ``Email alert Flow``.
 
 4. **Lightning App Setup:**
-    * Deploy the `Garage Management System` Lightning App.
+    * Deploy the ``Garage Management System`` Lightning App.
     * Configure home page layouts to suit user roles.
     * Assign app permissions to profiles.
 
@@ -94,8 +94,8 @@ Watch my Youtube video above for a complete demonstration of the Garage Manageme
 
 ### Billing details and Feedback 
 
-* **Payment Status Values:** `Pending`, `Completed`
-* **Service Type Values:** `Maintainance Service`, `Repair`, `Replacement Parts`
+* **Payment Status Values:** ``Pending``, ``Completed``
+* **Service Type Values:** ``Maintainance Service``, ``Repair``, ``Replacement Parts``
 * **Rating for Service:** 1 (Poor) - 5 (Excellent)
 
 ## Features in Detail
@@ -126,14 +126,11 @@ Watch my Youtube video above for a complete demonstration of the Garage Manageme
 
 ## Author
 
-**Manohara Sai Subba Raju Golla**  
+**Mohana Sai Chaitanya Ganesh Pagolu**  
 Gayatri Vidya Parishad College of Engineering (A), Visakhapatnam  
-Roll Number: 21131A05D3<br>
-Email: 21131A05D3@gvpce.ac.in  
+Roll Number: 21131A05C2<br>
+Email: 21131a05c2@gvpce.ac.in  
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
